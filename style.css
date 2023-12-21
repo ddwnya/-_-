@@ -1,0 +1,122 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+.container {
+max-width: 960px;
+margin: 0 auto;
+padding: 40px;
+}
+
+h1, h2, h3 {
+color: #343;
+}
+
+p {
+color: #666;
+}
+
+a {
+color: #333;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+header {
+background-color: #333;
+padding: 20px 0;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+nav ul li {
+display: inline-block;
+margin-right: 20px;
+}
+
+nav ul li a {
+font-weight: bold;
+}
+
+#hero {
+background-image: url(https://i-flashdrive.ru/800/600/http/i.pinimg.com/736x/5e/f7/d3/5ef7d3ec3aa8ccaa0a3a51e8eb367474.jpg);
+background-size: cover;
+color: #fff;
+text-align: center;
+padding: 100px 0;
+}
+
+#about {
+background-color: #f0a3a3;
+padding: 80px 0;
+}
+
+#products {
+padding: 80px 0;
+}
+
+.product-list {
+display: flex;
+justify-content: center;
+align-items: stretch;
+flex-wrap: wrap;
+}
+
+.product {
+width: 300px;
+margin: 20px;
+text-align: center;
+}
+
+.product img {
+width: 100%;
+height: auto;
+margin-bottom: 20px;
+}
+
+#contact {
+background-color: #e98a8a;
+padding: 80px 0;
+}
+
+form label {
+display: block;
+margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+}
+
+form button {
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+}
+
+form button:hover {
+background-color: rgb(226, 126, 126);
+}
+
+footer {
+background-color: rgb(231, 141, 141);
+color: rgb(231, 140, 20);
+text-align: center;
+padding: 20px 0;
+}
